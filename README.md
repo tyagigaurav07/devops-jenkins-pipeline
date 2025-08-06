@@ -54,37 +54,6 @@ pipeline {
     }
 }
 ```
-
----
-
-## 🛠️ How to Run
-
-1. **Clone the repo:**
-
-   ```bash
-   git clone https://github.com/tyagigaurav07/devops-jenkins-pipeline.git
-   cd devops-jenkins-pipeline
-   ```
-
-2. **Install dependencies:**
-
-   ```bash
-   npm install
-   ```
-
-3. **Run the app:**
-
-   ```bash
-   node app.js
-   ```
-
-4. **Run the Jenkins pipeline:**
-
-   - Open Jenkins Dashboard  
-   - Create a new pipeline project  
-   - Paste GitHub repo URL  
-   - Jenkins will auto-detect the `Jenkinsfile` and run the steps  
-
 ---
 
 ## 🙋‍♂️ Author
