@@ -53,6 +53,5 @@ pipeline {
     }
 }
 
-git clone https://github.com/tyagigaurav07/devops-jenkins-pipeline.git
-cd devops-jenkins-pipeline
+
 
