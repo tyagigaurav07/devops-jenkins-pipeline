@@ -9,14 +9,21 @@ It demonstrates continuous integration and deployment using Jenkins.
 
 ## 📦 Tech Stack
 
-- Node.js  
-- Express.js  
-- Jenkins  
-- Git & GitHub
+- **Node.js**
+- **Express.js**
+- **Jenkins (CI/CD)**
+- **Git & GitHub**
 
 ---
 
 ## 📁 Project Structure
+
+devops-jenkins-pipeline/
+├── node_modules/
+├── app.js
+├── package.json
+├── package-lock.json
+└── Jenkinsfile
 
 
 ---
@@ -45,3 +52,7 @@ pipeline {
         }
     }
 }
+
+git clone https://github.com/tyagigaurav07/devops-jenkins-pipeline.git
+cd devops-jenkins-pipeline
+
